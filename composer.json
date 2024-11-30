@@ -1,5 +1,5 @@
 {
-    "name": "maxmind-db/reader",
+    "name": "matiasdamiandelsolar/maxmind-db-reader-php",
     "description": "MaxMind DB Reader API",
     "keywords": ["database", "geoip", "geoip2", "geolocation", "maxmind"],
     "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
@@ -23,20 +23,9 @@
     "conflict": {
         "ext-maxminddb": "<1.11.1 || >=2.0.0"
     },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "3.*",
-        "phpunit/phpunit": ">=8.0.0,<10.0.0",
-        "squizlabs/php_codesniffer": "3.*",
-        "phpstan/phpstan": "*"
-    },
     "autoload": {
         "psr-4": {
-            "MaxMind\\Db\\": "src/MaxMind/Db"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "MaxMind\\Db\\Test\\Reader\\": "tests/MaxMind/Db/Test/Reader"
+            "matiasdamian\\MaxMind\\Db\\": "src"
         }
     }
 }

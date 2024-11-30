@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MaxMind\Db\Reader;
+namespace matiasdamian\MaxMind\Db\Reader;
 
 /**
  * This class provides the metadata for the MaxMind DB file.

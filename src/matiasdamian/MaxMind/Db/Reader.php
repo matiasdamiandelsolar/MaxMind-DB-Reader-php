@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MaxMind\Db;
+namespace matiasdamian\MaxMind\Db;
 
-use MaxMind\Db\Reader\Decoder;
-use MaxMind\Db\Reader\InvalidDatabaseException;
-use MaxMind\Db\Reader\Metadata;
-use MaxMind\Db\Reader\Util;
+use matiasdamian\MaxMind\Db\Reader\Decoder;
+use matiasdamian\MaxMind\Db\Reader\InvalidDatabaseException;
+use matiasdamian\MaxMind\Db\Reader\Metadata;
+use matiasdamian\MaxMind\Db\Reader\Util;
 
 /**
  * Instances of this class provide a reader for the MaxMind DB format. IP
