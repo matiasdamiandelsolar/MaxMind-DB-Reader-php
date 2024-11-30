@@ -27,5 +27,11 @@
         "psr-4": {
             "matiasdamian\\MaxMind\\Db\\": "src"
         }
+    },
+    "extra": {
+        "virion": {
+            "spec": "3.0",
+            "namespace-root": "matiasdamian\\MaxMind\\Db"
+        }
     }
 }
